@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# macOS
+.DS_Store
+
+# IDE / tooling
+.vscode/
+.idea/
+
+# Caches
+.pytest_cache/
+.mypy_cache/
+
+# Data (do not commit raw PTU data)
+*.ptu
+FLIM_*/
+
+# Outputs (uncomment if you do not want images in git)
+# *.png
